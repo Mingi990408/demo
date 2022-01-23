@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apperder name = "FILE" class = "ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class = "ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <fileNamePatten>${LOG_FILE}/stc_api_server_log.%d{yyyy-MM-dd}-%i.log</fileNamePatten>
+        <maxHistory>30</maxHistory>
+        <timeBaseFileNamingAndTriggeringPolicy class = "ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+            <maxFileSize>100MB</maxFileSize>
+        </timeBaseFileNamingAndTriggeringPolicy>
+    </rollingPolicy>
+    <encorder>
+        <charset>UTF-8</charset>
+        <patten>%d{yyyy:MM:dd HH:mm:ss.SSS} %-5level --- [%thread] %logger{35} : %msg %n</patten>
+    </encorder>
+</apperder>

@@ -1,0 +1,15 @@
+[INFO ] 2022-01-22 09:47:41.473 [main] DemoApplication - Starting DemoApplication using Java 11.0.12 on WIN-01504042052 with PID 10408 (C:\Users\Administrator\Downloads\demo\demo\build\classes\java\main started by Administrator in C:\Users\Administrator\Downloads\demo\demo)
+[INFO ] 2022-01-22 09:47:41.495 [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2022-01-22 09:47:43.512 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2022-01-22 09:47:43.544 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-01-22 09:47:43.545 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-01-22 09:47:43.546 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+[INFO ] 2022-01-22 09:47:43.705 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-01-22 09:47:43.705 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2121 ms
+[INFO ] 2022-01-22 09:47:44.204 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2022-01-22 09:47:44.363 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2022-01-22 09:47:44.398 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2022-01-22 09:47:44.411 [main] DemoApplication - Started DemoApplication in 3.638 seconds (JVM running for 5.527)
+[INFO ] 2022-01-22 09:48:06.676 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-01-22 09:48:06.677 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-01-22 09:48:06.680 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
